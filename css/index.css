@@ -140,6 +140,7 @@ body {
 }
 header {
   background: lightgrey;
+  padding-bottom: 10px;
 }
 nav {
   padding-top: 20px;
@@ -174,4 +175,33 @@ p {
   display: block;
   background-color: #fc6;
   border: 1px solid red;
+  width: 15%;
+  height: 40px;
+  margin: 20px 10px;
+  font-size: 20px;
+  color: red;
+  border-radius: 15px;
+}
+.middleText p {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  line-height: 1.5;
+  width: 35%;
+  margin-right: 0;
+  border-bottom: 2px solid lightgrey;
+}
+li {
+  list-style-type: square;
+  font-family: Roboto;
+  line-height: 0.5;
+  padding: 25px;
+}
+.bottomText ul {
+  margin: 2.9%;
+  list-style-type: square;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-top: 5px;
 }
